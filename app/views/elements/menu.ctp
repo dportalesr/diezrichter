@@ -5,13 +5,15 @@ foreach(Configure::read('Modules') as $cntllr => $mod){
 	if(isset($mod['menu']) && $mod['menu']){
 		echo
 			$html->tag('li',
+				$html->tag('span','','firstletter').
 				$html->link(
-					$html->tag('span',substr($mod['menu'], 0,1),'firstletter').$html->tag('span',substr($mod['menu'], 1).'.'),
+					$mod['menu'],
 					array('controller'=>$cntllr,'action'=>'index')
 				),
-				array('class'=>$this->params['controller'] == $cntllr ? 'mSelected' : '')
+				array('class'=>'m'.ucfirst($cntllr).($this->params['controller'] == $cntllr ? ' mSelected' : ''))
 			);
 	}
 }
 ?>
 </ul>
+<?php echo $html->link('','',array('id'=>'top')); ?>

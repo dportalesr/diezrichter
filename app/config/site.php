@@ -1,9 +1,9 @@
 <?php
 $config['Site'] = array(
-	'name'=>'DiezRichter',
+	'name'=>'DiezºRichter',
 	'domain'=>$_SERVER['SERVER_NAME'],
 	'email'=>'hola@'.$_SERVER['SERVER_NAME'],
-	'slogan'=>'Slogan',
+	'slogan'=>'Estudio de Diseño',
 	'keywords'=>'',
 	'description'=>'',
 	'tw'=>'',

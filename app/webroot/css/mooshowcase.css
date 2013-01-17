@@ -17,11 +17,11 @@
 
 .mooshowcase_nav.out {
 	position:relative;
+	text-align: center;
 }
 
 .mooshowcase_nav a{
-	display:block;
-	float:right;
+	display:-moz-inline-stack;display:inline-block;vertical-align:top;zoom:1;*display:inline;
 	width:12px;
 	margin:0 8px 0 0;
 	font-weight:bold;
@@ -30,7 +30,7 @@
 	line-height:12px;
 	font-size:10px;
 	text-align:center;
-	background:#d3d3d3;
+	background:#ccc;
 	border-radius:10px;
 	-moz-border-radius:8px;
 	-khtml-border-radius:8px;
@@ -57,9 +57,9 @@
 .mooshowcase_nav.out .navnp a:hover { background-position:center bottom; }
 
 .mooshowcase_nav.in a{ float:right; }
-.mooshowcase_nav.out a{ float:left; }
+.mooshowcase_nav.out a{  }
 
-.mooshowcase_nav a:hover, .mooshowcase_nav a.selected{ background:#333;text-shadow:0 0 4px #fff; }
+.mooshowcase_nav a:hover, .mooshowcase_nav a.selected{ background:#666;text-shadow:0 0 4px #fff; }
 
 .mooshowcase_caption{
 	background:url(/img/pad.png);

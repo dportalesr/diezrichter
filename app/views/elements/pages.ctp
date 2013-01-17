@@ -10,7 +10,8 @@ if(!$hiddeable  || $paginator->params['paging'][$model]['pageCount'] > 1){
 	#$paginator->options(array('url' => $this->passedArgs)); # para mantener otros parámetros de url cuando se pagine
 
 	
-	$a = array('first'=>'Primero','prev'=>'Anterior','next'=>'Siguiente','last'=>'Último');
+	//$a = array('first'=>'Primero','prev'=>'Anterior','next'=>'Siguiente','last'=>'Último');
+	$a = array('prev'=>'Anterior','next'=>'Siguiente');
 	$c = array();
 	$cT = array();
 	
@@ -29,6 +30,8 @@ if(!$hiddeable  || $paginator->params['paging'][$model]['pageCount'] > 1){
 	} else {
 		$numbers = $paginator->counter(array('format' => '%page% <span>|</span> %pages%'));
 	}
+
+	$numbers = $html->link('','#logo',array('class'=>'back_menu')); #!New
 	
 	//// Generamos los links
 	
@@ -60,7 +63,7 @@ if(!$hiddeable  || $paginator->params['paging'][$model]['pageCount'] > 1){
 	//// Output
 	
 	echo
-		$html->div('paginator '.$class.' '.($full ? 'full':'')),
+		$html->div('paginator '.$class.($full ? ' full':'').($floated ? ' floated':'')),
 			$html->div('buttons'),
 				$cT[0],
 				$html->tag('span',$numbers,array('class'=>'numbers')),

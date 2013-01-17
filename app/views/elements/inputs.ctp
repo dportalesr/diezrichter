@@ -5,6 +5,7 @@
 * 16/Dic/11 - Soporte para campos de tipo SET, campo activo siempre al final
 ****/
 	$model = isset($model) ? $model : $_m[0];
+	fb($this->data,'DATA ************');
 
 	App::import('Model',$model);
 	$m = new $model();
@@ -252,13 +253,12 @@
 			foreach($habtms as $habtm){
 				$modules = Configure::read('Modules');
 				$label = isset($modules[Inflector::tableize($habtm)]['label']) && $modules[Inflector::tableize($habtm)]['label'] ? $modules[Inflector::tableize($habtm)]['label'].': ' : '';
-				$_schema[$habtm.'.'] = array(
+				$_schema[$habtm] = array(
 					'label'=>ucfirst($label).$util->tip('Marque los elementos que desee asignar o agregue nuevos escribiendo en el cuadro.'),
 					'multiple'=>'checkbox',
 					'div'=>'cuteCheckbox',
 					'between'=>$this->element('admin_tags',array('model'=>$habtm))
 				);
-				
 			}
 		}
 

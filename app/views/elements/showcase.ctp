@@ -1,5 +1,6 @@
 <?php
 $id = isset($id) && $id ? $id : 'carousel';
+$skip_portada = isset($skip_portada) ? $skip_portada : false;
 $model = isset($model) && $model ? $model : 'Carousel';
 $size = isset($size) && $size ? explode('x',$size) : false;
 $url = isset($url) && $url ? $url : false;
@@ -13,6 +14,8 @@ if($data = isset($data) && $data ? $data : Cache::read(strtolower($model).'_show
 	
 	foreach($data as $snap){
 		$it = $model && isset($snap[$model]) ? $snap[$model] : $snap;
+
+		if($skip_portada && $it['portada']) continue;
 		
 		if(isset($it['enlace']) && $it['enlace'])
 			echo $html->link(
@@ -27,6 +30,6 @@ if($data = isset($data) && $data ? $data : Cache::read(strtolower($model).'_show
 	}
 	echo '</div>';
 	
-	$moo->showcase($id,$opts);
+	//$moo->showcase($id,$opts);
 }
 ?>

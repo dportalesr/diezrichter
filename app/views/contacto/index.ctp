@@ -4,9 +4,9 @@ echo
 	$html->div('clear'),
 		$html->div('info column'),
 			$html->div('title title4','Oficinas'),
-			$html->para(null,'Lorem ipsum dolor sit amet, consectetuer adipiscing elit.'),
-			$html->div('title title4','Correo Electrónico'),
-			$html->para(null,$util->ofuscar(Configure::read('Site.email'))),
+			$html->para(null,'Mérida, México.'),
+			$html->div('title title4','E-mail'),
+			$html->para(null,$html->tag('b',$util->ofuscar(Configure::read('Site.email')))),
 			/*
 			$html->div('title title3','Cómo llegar'),
 			$html->link($html->image('mapa.jpg'),'/img/mapa.jpg',array('class'=>'pulsembox mapa')),

@@ -4,6 +4,54 @@
 		"selected_items":
 		[
 			[
+				"padd",
+				"padding-left"
+			],
+			[
+				"bar",
+				"bar_height"
+			],
+			[
+				"target",
+				"target_mask"
+			],
+			[
+				"targe",
+				"target_mask"
+			],
+			[
+				"tag",
+				"target_mask"
+			],
+			[
+				"st",
+				"store"
+			],
+			[
+				"new",
+				"new_top"
+			],
+			[
+				"left",
+				"left_dir"
+			],
+			[
+				"border-top-",
+				"border-top-color"
+			],
+			[
+				"margin",
+				"marginFx"
+			],
+			[
+				"cklink",
+				"cklinkex	cklinkex"
+			],
+			[
+				"url",
+				"urlencode"
+			],
+			[
 				"fs",
 				"fs	fs"
 			],
@@ -102,10 +150,6 @@
 			[
 				"ar",
 				"ar	ar"
-			],
-			[
-				"cklink",
-				"cklink	cklink"
 			],
 			[
 				"ckbe",
@@ -300,10 +344,6 @@
 				"orderdata"
 			],
 			[
-				"margin",
-				"margin-top:   (property)"
-			],
-			[
 				"firs",
 				"first-child"
 			]
@@ -311,46 +351,6 @@
 	},
 	"buffers":
 	[
-		{
-			"file": "app/views/products/index.ctp",
-			"settings":
-			{
-				"buffer_size": 1239,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/webroot/css/main.css",
-			"settings":
-			{
-				"buffer_size": 11218,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/controllers/products_controller.php",
-			"settings":
-			{
-				"buffer_size": 1934,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/controllers/_base/items_controller.php",
-			"settings":
-			{
-				"buffer_size": 3895,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/views/products/ver.ctp",
-			"settings":
-			{
-				"buffer_size": 795,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"command_palette":
@@ -464,38 +464,68 @@
 	},
 	"file_history":
 	[
-		"/W/diezrichter/app/views/elements/th.ctp",
-		"/W/diezrichter/app/webroot/css/main.css",
-		"/W/diezrichter/app/views/elements/inputs.ctp",
-		"/W/diezrichter/app/views/products/index.ctp",
-		"/W/diezrichter/app/controllers/tags_controller.php",
+		"/W/diezrichter/app/views/_base/admin_editar.ctp",
+		"/W/diezrichter/app/views/elements/admin_tags.ctp",
+		"/W/diezrichter/app/app_model.php",
 		"/W/diezrichter/app/models/product.php",
+		"/W/diezrichter/app/views/elements/inputs.ctp",
+		"/W/diezrichter/app/models/tag.php",
+		"/W/diezrichter/app/controllers/products_controller.php",
+		"/W/diezrichter/app/controllers/_base/abcs_controller.php",
+		"/W/__cake/app/views/elements/inputs.ctp",
+		"/W/__cake/app/controllers/posts_controller.php",
+		"/W/__cake/app/models/tag.php",
+		"/C/Users/Dan/AppData/Local/Temp/fz3temp-1/core.php",
+		"/W/__cake/app/views/elements/inlinegallery.ctp",
+		"/W/diezrichter/app/webroot/css/main.css",
+		"/W/diezrichter/app/views/products/ver.ctp",
+		"/W/diezrichter/app/views/elements/showcase.ctp",
+		"/W/diezrichter/app/models/productimg.php",
+		"/W/diezrichter/app/views/contacto/index.ctp",
+		"/W/diezrichter/app/views/elements/pages.ctp",
+		"/W/diezrichter/app/webroot/css/generic.css",
+		"/W/diezrichter/app/views/services/index.ctp",
+		"/W/diezrichter/app/views/products/index.ctp",
+		"/W/diezrichter/app/webroot/css/mooshowcase.css",
+		"/C/Users/Dan/Documents/Merida_gob/www.merida.gob.mx/municipio/eventos.html",
+		"/C/Users/Dan/Documents/Merida_gob/www.merida.gob.mx/municipio/appsearch.htm",
+		"/C/Users/Dan/Documents/Merida_gob/www.merida.gob.mx/municipio/dudas.html",
+		"/W/diezrichter/app/views/elements/share.ctp",
+		"/W/diezrichter/app/views/elements/footer.ctp",
+		"/W/diezrichter/app/webroot/js/animation.js",
+		"/W/diezrichter/app/views/about/index.ctp",
+		"/W/kyb/app/controllers/contacto_controller.php",
+		"/C/Users/Dan/AppData/Local/Temp/fz3temp-1/contacto_controller.php",
+		"/C/Users/Dan/AppData/Local/Temp/fz3temp-1/products_controller.php",
+		"/W/diezrichter/app/config/site.php",
+		"/W/diezrichter/app/views/elements/top.ctp",
+		"/W/diezrichter/app/views/elements/menu.ctp",
+		"/W/diezrichter/app/views/layouts/default.ctp",
+		"/W/diezrichter/app/views/inicio/index.ctp",
+		"/W/diezrichter/app/controllers/_base/items_controller.php",
+		"/W/diezrichter/app/index.php",
+		"/W/diezrichter/app/views/elements/twitter.ctp",
+		"/W/diezrichter/app/views/elements/facebook.ctp",
+		"/W/diezrichter/app/app_controller.php",
+		"/W/diezrichter/app/config/database.php",
+		"/E/Riven/Santiago/Documentos/Pensamientos/(#)S o L e S i T o(#).html",
+		"/W/diezrichter/app/views/tags/admin_index.ctp",
+		"/W/__cake/app/views/tags/admin_index.ctp",
+		"/W/__cake/app/views/_base/labels/admin_index.ctp",
+		"/W/diezrichter/app/views/elements/th.ctp",
+		"/W/diezrichter/app/controllers/tags_controller.php",
 		"/W/diezrichter/app/views/products/admin_agregar.ctp",
 		"/W/diezrichter/app/views/products/admin_index.ctp",
-		"/W/diezrichter/app/webroot/css/generic.css",
-		"/W/diezrichter/app/views/contacto/index.ctp",
-		"/W/diezrichter/app/config/site.php",
-		"/W/diezrichter/app/views/services/index.ctp",
-		"/W/diezrichter/app/views/about/index.ctp",
 		"/W/diezrichter/app/controllers/_base/section_controller.php",
-		"/W/diezrichter/app/app_controller.php",
 		"/W/diezrichter/app/views/elements/sidebar.ctp",
 		"/W/diezrichter/app/models/service.php",
 		"/W/diezrichter/app/models/about.php",
-		"/W/diezrichter/app/models/tag.php",
 		"/W/diezrichter/app/models/post.php",
 		"/W/diezrichter/app/controllers/inicio_controller.php",
-		"/W/diezrichter/app/views/elements/top.ctp",
 		"/W/diezrichter/app/controllers/services_controller.php",
 		"/W/diezrichter/app/controllers/posts_controller.php",
-		"/W/diezrichter/app/controllers/products_controller.php",
-		"/W/diezrichter/app/config/database.php",
-		"/W/diezrichter/app/views/inicio/index.ctp",
 		"/W/diezrichter/app/views/layouts/diez.ctp",
-		"/W/diezrichter/app/views/layouts/default.ctp",
-		"/W/diezrichter/app/views/elements/menu.ctp",
 		"/W/diezrichter/index.html",
-		"/W/diezrichter/app/views/elements/footer.ctp",
 		"/C/Dropbox/Env/Sublime Text 2/Data/Packages/Snippets/CSS/fonts/gotham.sublime-snippet",
 		"/W/_fontkits/Gotham Medium/fonts.css",
 		"/W/nunu/app/views/puntos_de_venta/index.ctp",
@@ -554,44 +584,14 @@
 		"/W/edrecolchas/app/views/elements/tinymce.ctp",
 		"/W/__cake/app/views/helpers/util.php",
 		"/W/__cake/app/webroot/css/main.css",
-		"/W/__cake/app/views/elements/inputs.ctp",
 		"/W/vianam/app/app_helper.php",
 		"/C/Users/Dan/AppData/Local/Temp/fz3temp-1/app_helper.php",
 		"/W/__cake/app/views/elements/cart.php",
 		"/W/__cake/app/config/site.php",
 		"/W/vianam/app/config/bootstrap.php",
 		"/C/Users/Dan/AppData/Local/Temp/fz3temp-1/bootstrap.php",
-		"/C/Users/Dan/AppData/Local/Temp/fz3temp-1/core.php",
 		"/W/__cake/app/controllers/_base/my_controller.php",
-		"/W/__cake/app/models/behaviors/captcha.php",
-		"/W/__cake/app/views/nodes/admin_index.ctp",
-		"/W/__cake/app/views/tags/admin_index.ctp",
-		"/W/__cake/app/views/elements/elist.ctp",
-		"/W/__cake/app/views/polls/admin_respuestas.ctp",
-		"/W/__cake/app/views/_base/labels/admin_index.ctp",
-		"/W/__cake/app/views/polls/admin_editar.ctp",
-		"/W/__cake/app/views/polls/admin_agregar.ctp",
-		"/W/__cake/app/views/_base/admin_orden.ctp",
-		"/W/__cake/app/views/products/_admin_editar.ctp",
-		"/W/__cake/app/views/products/admin_agregar.ctp",
-		"/W/__cake/app/views/elements/recursive.ctp",
-		"/W/__cake/app/controllers/nodes_controller.php",
-		"/W/__cake/app/controllers/_base/categorizeditems_controller.php",
-		"/W/__cake/app/views/elements/adminhdr.ctp",
-		"/W/__cake/app/views/_base/admin_agregar.ctp",
-		"/W/__cake/app/models/type.php",
-		"/W/__cake/app/app_model.php",
-		"/W/__cake/app/models/product.php",
-		"/W/__cake/app/controllers/_base/abcs_controller.php",
-		"/W/__cake/app/controllers/_base/items_controller.php",
-		"/W/__cake/app/controllers/products_controller.php",
-		"/W/__cake/app/webroot/css/admin.css",
-		"/W/__cake/app/webroot/css/generic.css",
-		"/W/__cake/app/views/products/admin_editar.ctp",
-		"/W/__cake/app/webroot/js/mooshowcase.js",
-		"/W/__cake/app/config/core.php",
-		"/W/__cake/app/app_controller.php",
-		"/W/__cake/app/controllers/categories_controller.php"
+		"/W/__cake/app/models/behaviors/captcha.php"
 	],
 	"find":
 	{
@@ -609,6 +609,65 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"tag",
+			"Product",
+			"fb(",
+			"$data['Tag']",
+			"$data",
+			"fb(",
+			"$sole",
+			"recursive",
+			"$this->data",
+			"tags",
+			"tag",
+			".back",
+			"11px",
+			".section",
+			"submit",
+			"0",
+			".lema",
+			".thumb .meta .title",
+			"column.omega",
+			".omega",
+			"13px",
+			"echo\n				$html->tag('a',null,array('href'=>Router::url($url),'class'=>'thumb v')),\n					$util->th($item,$_m[0],array('w'=>220,'h'=>220,'fill'=>true)),\n					$html->div('meta'),\n						$html->tag('h2',$item[$_m[0]]['nombre'],'title'),\n						$html->tag('span',$tags,'tag_names'),\n					'</div>',\n				'</a>';",
+			".meta",
+			"#666",
+			"gotha",
+			"$captions[$i]",
+			"last",
+			"pow",
+			"tween('top',new_top)",
+			"morph",
+			"{'top':new_top}",
+			"morph",
+			"bar_height",
+			"upwards",
+			"screen",
+			"#666",
+			"span,",
+			".bar",
+			"#666",
+			"_hover",
+			"span",
+			"_",
+			"#",
+			"red",
+			"transparent",
+			"bar_size",
+			"{ height",
+			"$html->tag('li',",
+			"left",
+			"#666",
+			".left",
+			".right",
+			".left",
+			"#header",
+			"#menu",
+			":hover",
+			"hover",
+			"_USER_",
+			"carousel",
 			"title",
 			".thumb",
 			"16px",
@@ -677,66 +736,7 @@
 			"precio",
 			"!$isPost",
 			"data",
-			"_enable",
-			"checked",
-			"optional",
-			"$value",
-			"$this->uses[0]",
-			"$model",
-			"handle_elist_optional",
-			"$fieldData['opts']",
-			"elist",
-			"isset($data[$i][$model]['id'])",
-			"$editableList",
-			"elist",
-			"exit",
-			"exit;",
-			"echo $this->Moo",
-			"item.id.split(\"_\")[1]",
-			"$i+$options['offset']",
-			".id",
-			"id",
-			"base_list_item",
-			"$this->",
-			"this->buffer",
-			"base_list_item",
-			"$id",
-			"atts",
-			"editableList",
-			"$editable",
-			"['edit']",
-			"$editableIdx",
-			" === ",
-			"$editables",
-			"customUrl",
-			"customAction",
-			"customText",
-			"bracket",
-			"match_string_brackets",
-			"$class",
-			"attrs",
-			"$atts",
-			"detourfr",
-			"origAction",
-			"orig",
-			"origAction",
-			"orig",
-			"pboximg",
-			"$tagTxt",
-			"tagTxt",
-			"$tagTxt",
-			"['type']",
-			"$div",
-			"$fopts",
-			"$opts",
-			"opts",
-			"attr",
-			"defaultmodel",
-			"$inner",
-			"atts",
-			"$attrs",
-			"fb(",
-			"$model"
+			"_enable"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -772,388 +772,8 @@
 	"groups":
 	[
 		{
-			"selected": 4,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "app/views/products/index.ctp",
-					"settings":
-					{
-						"buffer_size": 1239,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								267,
-								267
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 0.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"Python Django": "python"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/webroot/css/main.css",
-					"settings":
-					{
-						"buffer_size": 11218,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								10385,
-								10385
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 0.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"Python Django": "python"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 5232.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "app/controllers/products_controller.php",
-					"settings":
-					{
-						"buffer_size": 1934,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								365,
-								365
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 0.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"Python Django": "python"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/controllers/_base/items_controller.php",
-					"settings":
-					{
-						"buffer_size": 3895,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								330,
-								2099
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 0.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"Python Django": "python"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 312.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/views/products/ver.ctp",
-					"settings":
-					{
-						"buffer_size": 795,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								585,
-								585
-							]
-						],
-						"settings":
-						{
-							"annotations":
-							[
-								"TODO",
-								"README",
-								"FIXME"
-							],
-							"gjslint_ignore":
-							[
-								110.0
-							],
-							"gjslint_options":
-							[
-							],
-							"javascript_linter": "jshint",
-							"jshint_options":
-							{
-								"browser": true,
-								"evil": true,
-								"regexdash": true,
-								"sub": true,
-								"trailing": true,
-								"wsh": true
-							},
-							"pep8_ignore":
-							[
-								"E501"
-							],
-							"pyflakes_ignore":
-							[
-							],
-							"pyflakes_ignore_import_*": true,
-							"sublimelinter": true,
-							"sublimelinter_delay": 0.0,
-							"sublimelinter_disable":
-							[
-							],
-							"sublimelinter_executable_map":
-							{
-							},
-							"sublimelinter_fill_outlines": false,
-							"sublimelinter_gutter_marks": false,
-							"sublimelinter_notes": false,
-							"sublimelinter_objj_check_ascii": false,
-							"sublimelinter_popup_errors_on_save": false,
-							"sublimelinter_syntax_map":
-							{
-								"Python Django": "python"
-							},
-							"sublimelinter_wrap_find": true,
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -1199,27 +819,199 @@
 		"selected_items":
 		[
 			[
-				"items",
-				"controllers/_base/items_controller.php"
+				"abcs",
+				"controllers/_base/abcs_controller.php"
 			],
 			[
-				"producver",
-				"views/products/ver.ctp"
+				"appmodel",
+				"app_model.php"
 			],
 			[
-				"produc",
-				"controllers/products_controller.php"
+				"admin_tag",
+				"views/elements/admin_tags.ctp"
 			],
 			[
-				"productindex",
-				"views/products/index.ctp"
+				"input",
+				"views/elements/inputs.ctp"
+			],
+			[
+				"_baseedit",
+				"views/_base/admin_editar.ctp"
+			],
+			[
+				"tag.",
+				"models/tag.php"
+			],
+			[
+				"produc.",
+				"models/product.php"
+			],
+			[
+				"tag",
+				"models/tag.php"
 			],
 			[
 				"maincss",
 				"webroot/css/main.css"
 			],
 			[
+				"prod",
+				"controllers/products_controller.php"
+			],
+			[
+				"produc",
+				"models/productimg.php"
+			],
+			[
+				"showcase",
+				"views/elements/showcase.ctp"
+			],
+			[
+				"ver",
+				"views/products/ver.ctp"
+			],
+			[
+				"producimg",
+				"models/productimg.php"
+			],
+			[
+				"containdex",
+				"views/contacto/index.ctp"
+			],
+			[
+				"maincs",
+				"webroot/css/main.css"
+			],
+			[
+				"pages",
+				"views/elements/pages.ctp"
+			],
+			[
+				"contacindex",
+				"views/contacto/index.ctp"
+			],
+			[
+				"generic",
+				"webroot/css/generic.css"
+			],
+			[
+				"showcascss",
+				"webroot/css/mooshowcase.css"
+			],
+			[
+				"produver",
+				"views/products/ver.ctp"
+			],
+			[
+				"produindex",
+				"views/products/index.ctp"
+			],
+			[
+				"verinde",
+				"views/services/index.ctp"
+			],
+			[
+				"share",
+				"views/elements/share.ctp"
+			],
+			[
+				"anima",
+				"webroot/js/animation.js"
+			],
+			[
+				"footer",
+				"views/elements/footer.ctp"
+			],
+			[
+				"gener",
+				"webroot/css/generic.css"
+			],
+			[
+				"aboutindex",
+				"views/about/index.ctp"
+			],
+			[
+				"menu",
+				"views/elements/menu.ctp"
+			],
+			[
+				"defaul",
+				"views/layouts/default.ctp"
+			],
+			[
+				"top",
+				"views/elements/top.ctp"
+			],
+			[
+				"prodct",
+				"controllers/products_controller.php"
+			],
+			[
+				"site",
+				"config/site.php"
+			],
+			[
+				"mainc",
+				"webroot/css/main.css"
+			],
+			[
+				"inicioindex",
+				"views/inicio/index.ctp"
+			],
+			[
+				"items",
+				"controllers/_base/items_controller.php"
+			],
+			[
 				"producindex",
+				"views/products/index.ctp"
+			],
+			[
+				"index",
+				"index.php"
+			],
+			[
+				"prou_cn",
+				"controllers/products_controller.php"
+			],
+			[
+				"tw",
+				"views/elements/twitter.ctp"
+			],
+			[
+				"facebook",
+				"views/elements/facebook.ctp"
+			],
+			[
+				"mainss",
+				"webroot/css/main.css"
+			],
+			[
+				"app",
+				"app_controller.php"
+			],
+			[
+				"data",
+				"config/database.php"
+			],
+			[
+				"tagsadmin_e",
+				"views/tags/admin_index.ctp"
+			],
+			[
+				"showcss",
+				"webroot/css/mooshowcase.css"
+			],
+			[
+				"face",
+				"views/elements/facebook.ctp"
+			],
+			[
+				"producver",
+				"views/products/ver.ctp"
+			],
+			[
+				"productindex",
 				"views/products/index.ctp"
 			],
 			[
@@ -1229,18 +1021,6 @@
 			[
 				"th",
 				"views/elements/th.ctp"
-			],
-			[
-				"site",
-				"config/site.php"
-			],
-			[
-				"generic",
-				"webroot/css/generic.css"
-			],
-			[
-				"contacindex",
-				"views/contacto/index.ctp"
 			],
 			[
 				"side",
@@ -1255,20 +1035,12 @@
 				"controllers/_base/section_controller.php"
 			],
 			[
-				"aboutindex",
-				"views/about/index.ctp"
-			],
-			[
 				"servie",
 				"models/service.php"
 			],
 			[
 				"about",
 				"models/about.php"
-			],
-			[
-				"tag",
-				"models/tag.php"
 			],
 			[
 				"post",
@@ -1295,28 +1067,8 @@
 				"app_controller.php"
 			],
 			[
-				"top",
-				"views/elements/top.ctp"
-			],
-			[
-				"inicioindex",
-				"views/inicio/index.ctp"
-			],
-			[
 				"inicio",
 				"controllers/inicio_controller.php"
-			],
-			[
-				"data",
-				"config/database.php"
-			],
-			[
-				"footer",
-				"views/elements/footer.ctp"
-			],
-			[
-				"menu",
-				"views/elements/menu.ctp"
 			],
 			[
 				"default",
@@ -1327,16 +1079,8 @@
 				"views/puntos_de_venta/index.ctp"
 			],
 			[
-				"ver",
-				"views/products/ver.ctp"
-			],
-			[
 				"database",
 				"config/database.php"
-			],
-			[
-				"maincs",
-				"webroot/css/main.css"
 			],
 			[
 				"inic",
@@ -1359,20 +1103,8 @@
 				"controllers/products_controller.php"
 			],
 			[
-				"produver",
-				"views/products/ver.ctp"
-			],
-			[
-				"prod",
-				"models/product.php"
-			],
-			[
 				"labelsindex",
 				"views/_base/labels/admin_index.ctp"
-			],
-			[
-				"containdex",
-				"views/contacto/index.ctp"
 			],
 			[
 				"contac",
@@ -1435,10 +1167,6 @@
 				"models/type.php"
 			],
 			[
-				"gener",
-				"webroot/css/generic.css"
-			],
-			[
 				"admincss",
 				"webroot/css/admin.css"
 			],
@@ -1461,10 +1189,6 @@
 			[
 				"item",
 				"controllers/_base/items_controller.php"
-			],
-			[
-				"abcs",
-				"controllers/_base/abcs_controller.php"
 			],
 			[
 				"produ",
@@ -1505,10 +1229,6 @@
 			[
 				"labe",
 				"controllers/_base/labels_controller.php"
-			],
-			[
-				"app",
-				"app_controller.php"
 			],
 			[
 				"core",
@@ -1553,10 +1273,6 @@
 			[
 				"moo.",
 				"views/helpers/moo.php"
-			],
-			[
-				"produc.",
-				"models/product.php"
 			],
 			[
 				"prod_c",
@@ -1613,102 +1329,6 @@
 			[
 				"abcs_",
 				"controllers/_base/abcs_controller.php"
-			],
-			[
-				"labels_",
-				"controllers/_base/labels_controller.php"
-			],
-			[
-				"items_cn",
-				"controllers/_base/items_controller.php"
-			],
-			[
-				"admin_orden",
-				"views/_base/admin_orden.ctp"
-			],
-			[
-				"_base/labels/",
-				"views/_base/labels/admin_index.ctp"
-			],
-			[
-				"admin_orde",
-				"views/_base/admin_orden.ctp"
-			],
-			[
-				"product.",
-				"models/product.php"
-			],
-			[
-				"producs",
-				"controllers/products_controller.php"
-			],
-			[
-				"produt",
-				"models/product.php"
-			],
-			[
-				"datab",
-				"config/database.php"
-			],
-			[
-				"sear",
-				"models/search.php"
-			],
-			[
-				"producsindex",
-				"views/products/index.ctp"
-			],
-			[
-				"productsindex",
-				"views/products/index.ctp"
-			],
-			[
-				"databas",
-				"config/database.php"
-			],
-			[
-				"index5",
-				"views/inicio/index5.ctp"
-			],
-			[
-				"index4",
-				"views/inicio/index4.ctp"
-			],
-			[
-				"index3",
-				"views/inicio/index3.ctp"
-			],
-			[
-				"index2",
-				"views/inicio/index2.ctp"
-			],
-			[
-				"index1",
-				"views/inicio/index1.ctp"
-			],
-			[
-				"contact.ct",
-				"views/elements/email/html/contact.ctp"
-			],
-			[
-				"inicio_",
-				"controllers/inicio_controller.php"
-			],
-			[
-				"defau",
-				"views/layouts/default.ctp"
-			],
-			[
-				"landin_c",
-				"controllers/landings_controller.php"
-			],
-			[
-				"landinag",
-				"views/landings/admin_agregar.ctp"
-			],
-			[
-				"land",
-				"models/landing.php"
 			]
 		],
 		"width": 0.0
@@ -1718,6 +1338,22 @@
 		"height": 500.0,
 		"selected_items":
 		[
+			[
+				"cake",
+				"/W/__cake/app/cake.sublime-project"
+			],
+			[
+				"somofunc",
+				"/W/somosfunc/app/somosfunc.sublime-project"
+			],
+			[
+				"somos",
+				"/W/somosmas/app/somosmas.sublime-project"
+			],
+			[
+				"diez",
+				"/W/diezrichter/diezrichter.sublime-project"
+			],
 			[
 				"soniar",
 				"/W/soniar/app/soniar.sublime-project"

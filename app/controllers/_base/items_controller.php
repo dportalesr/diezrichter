@@ -17,7 +17,13 @@ class ItemsController extends AbcsController{
 
 		if($item = $this->m[0]->read(null,$id)){
 			$this->set(compact('item'));
-			$this->set('related',$this->m[0]->find_(array('recursive'=>0,'field'=>'orden','value'=>$item[$this->uses[0]]['orden']),'neighbors'));
+			$this->set('related',$this->m[0]->find_(array(
+				'recursive'=>-1,
+				'fields'=>array('id','slug','nombre','orden'),
+				'field'=>'orden',
+				'value'=>$item[$this->uses[0]]['orden']
+			),'neighbors'));
+
 			$this->pageTitle = $item[$this->uses[0]][$this->m[0]->displayField];
 			$descripcion = substr(strip_tags($item[$this->uses[0]]['descripcion']), 0, 300);
 
@@ -95,11 +101,11 @@ class ItemsController extends AbcsController{
 
 		$total = $this->m[0]->find_(array('order'=>''),'count+');
 
-		$this->paginate['Product']['fields'] = array('id',$this->m[0]->displayField,'orden');
-		$this->paginate['Product']['contain'] = false;
-		$this->paginate['Product']['limit'] = $limit;
+		$this->paginate[$this->uses[0]]['fields'] = array('id',$this->m[0]->displayField,'orden');
+		$this->paginate[$this->uses[0]]['contain'] = false;
+		$this->paginate[$this->uses[0]]['limit'] = $limit;
 
-		$this->set('orderdata',$this->paginate('Product',$this->m[0]->find_(null,'paginate')));
+		$this->set('orderdata',$this->paginate($this->uses[0],$this->m[0]->find_(null,'paginate')));
 
 		if(isset($this->params['named']['page']) && $this->params['named']['page'])
 			$page = $this->params['named']['page'];

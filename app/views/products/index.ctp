@@ -21,15 +21,28 @@ echo $this->element('top',array('wide'=>true));
 			
 		}
 			
-		echo $this->element('pages');
+		echo $this->element('pages',array('floated'=>true));
 		$moo->buffer('
 			var thumbs = $$(".thumb");
 			thumbs.each(function(el){
-				var meta = el.getElement(".meta").setStyles({"top":"-100%","display":"block"});
-				el.store("fx",new Fx.Tween(meta,{ "property":"top","unit":"%", "transition":"pow:out","duration":500, "link":"cancel" }));
+				var meta = el.getElement(".meta").fade("hide");meta.getElement(".title").setStyle("margin-top",25);
+				var opacityFx = new Fx.Tween(meta,{ "property":"opacity", "transition":"circ:out","duration":800, "link":"cancel" });
+				var marginFx = new Fx.Tween(meta.getElement(".title"),{ "property":"margin-top", "transition":"pow:out","duration":500, "link":"cancel" });
+
+				var fx = function(enter){
+					if(enter){
+						opacityFx.start(1);
+						marginFx.start(0);
+					}else{
+						opacityFx.start(0);
+						marginFx.start(25);
+					}
+				}.bind(el);
+
+				el.store("fx",fx);
 				el.addEvents({
-					"mouseenter":function(){ this.retrieve("fx").start(0); }.bind(el),
-					"mouseleave":function(){ this.retrieve("fx").start("-100"); }.bind(el)
+					"mouseenter":function(){ (this.retrieve("fx"))(true); }.bind(el),
+					"mouseleave":function(){ (this.retrieve("fx"))(false); }.bind(el)
 				})
 			});
 		');

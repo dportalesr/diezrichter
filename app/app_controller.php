@@ -32,10 +32,12 @@ class AppController extends Controller {
 		
 		//// CACHE
 		if(strpos($this->action,'admin_')===false){
+			/*
 			if(Cache::read(strtolower('Banner').'_recent') === false){
 				$this->loadModel('Banner');
 				Cache::write(strtolower('Banner').'_recent',$this->Banner->find_(array('contain'=>false)));
 			}
+			*/
 			
 			//fcache
 		}

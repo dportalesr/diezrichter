@@ -1,6 +1,7 @@
 <?php
+$hasimgs = in_array(strtolower($_m[0]).'imgs',array_keys(Configure::read('Modules')));
 echo
-	$this->element('adminhdr',array('links'=>array('add'))),
+	$this->element('adminhdr',array('links'=>array('add','order'))),
 	$this->element('pages');
 	
 	if($items){
@@ -11,8 +12,6 @@ echo
 			$html->tableHeaders(array(
 				$paginator->sort('#', 'id'),
 				$paginator->sort('Nombre', 'nombre'),
-				$paginator->sort('Categoría', 'Pcategory.nombre'),
-				$paginator->sort('Programa', 'Category.nombre'),
 				$paginator->sort('Activo', 'activo'),
 				$paginator->sort('Creado', 'created'),
 				'Acciones'
@@ -24,12 +23,11 @@ echo
 				echo $html->tableCells(array(array(
 					$form->input($id,array('type'=>'checkbox','div'=>'hide','class'=>'delete')).$html->link($id,'javascript:;',array('class'=>'id','id'=>'it'.$id)),
 					$it[$_m[0]]['nombre'],
-					$it['Pcategory']['nombre'],
-					$it['Category']['nombre'],
 					$util->toggle($it[$_m[0]]['activo'],$id),
 					$util->fdate('s',$it[$_m[0]]['created']),
 					array(
 						$html->link('Ver',array('action'=>'ver','admin'=>0,$id),array('target'=>'_blank')).
+						($hasimgs ? $html->link('Fotos',array('action'=>'images','admin'=>1,$id)):'').
 						$html->link('Editar',array('action'=>'editar','admin'=>1,$id)).
 						$html->link('Eliminar',array('action'=>'eliminar','admin'=>1,$id),null,'¿Seguro que quiere eliminar este elemento?')
 					,array('class'=>'actions'))

@@ -5,6 +5,7 @@ class ProductsController extends ItemsController{
 	var $uses = array('Product','Tag');
 
 	function index(){
+		$this->paginate['Product']['limit'] = 9;
 		$this->paginate['Product']['contain'] = array('Productportada','Tag.tag');
 		$this->paginate['Product']['recursive'] = -1;
 		$this->Product->recursive = -1;
@@ -12,6 +13,7 @@ class ProductsController extends ItemsController{
 		parent::index(true);
 	}
 
+	/*
 	function admin_agregar() {
 		if(!empty($this->data)){
 			$tags = $this->data['Tag'];unset($this->data['Tag']);
@@ -62,6 +64,7 @@ class ProductsController extends ItemsController{
 			}
 		}
 	}
+	*/
 
 	function admin_export(){ $this->_export(array('nombre','precio','descripcion','Category.nombre')); }
 }

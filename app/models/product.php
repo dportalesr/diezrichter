@@ -1,7 +1,7 @@
 <?php
 class Product extends AppModel {
 	var $name = 'Product';
-	var $actsAs = array('ExtendAssociations');
+	var $actsAs = array('ExtendAssociations','Ordenable');
 	var $hasAndBelongsToMany = array('Tag');
 
 	var $labels = array(
