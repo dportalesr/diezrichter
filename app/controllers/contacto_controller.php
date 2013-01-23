@@ -13,7 +13,7 @@ class ContactoController extends EmptyController {
 			$data = array(
 				'nombre'=>$this->data['Contact']['nombre'],
 				'email'=>$this->data['Contact']['email'],
-				'empresa'=>$this->data['Contact']['empresa'],
+				'telefono'=>$this->data['Contact']['telefono'],
 				'mensaje'=>$this->data['Contact']['mensaje']
 			);
 

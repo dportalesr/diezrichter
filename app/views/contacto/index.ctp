@@ -20,6 +20,7 @@ echo
 			$html->div('subform'),
 				$form->input('nombre',array('label'=>'Nombre:')),
 				$form->input('email',array('label'=>'E-mail:')),
+				$form->input('telefono',array('label'=>'Teléfono:')),
 				$form->input('mensaje',array('label'=>'Mensaje:','rows'=>9,'cols'=>35)),
 				$this->Captcha->input(),
 				$form->submit('Enviar'),

@@ -464,13 +464,22 @@
 	},
 	"file_history":
 	[
+		"/W/diezrichter/app/controllers/contacto_controller.php",
+		"/W/diezrichter/app/views/elements/email/html/contact.ctp",
+		"/W/diezrichter/app/views/contacto/index.ctp",
+		"/W/diezrichter/app/config/site.php",
+		"/W/diezrichter/app/controllers/products_controller.php",
+		"/W/diezrichter/app/models/product.php",
+		"/W/diezrichter/app/views/products/admin_index.ctp",
+		"/W/diezrichter/app/models/behaviors/ordenable.php",
+		"/W/diezrichter/app/views/_base/admin_index.ctp",
+		"/W/diezrichter/app/views/products/index.ctp",
+		"/W/diezrichter/app/models/productimg.php",
 		"/W/diezrichter/app/views/_base/admin_editar.ctp",
 		"/W/diezrichter/app/views/elements/admin_tags.ctp",
 		"/W/diezrichter/app/app_model.php",
-		"/W/diezrichter/app/models/product.php",
 		"/W/diezrichter/app/views/elements/inputs.ctp",
 		"/W/diezrichter/app/models/tag.php",
-		"/W/diezrichter/app/controllers/products_controller.php",
 		"/W/diezrichter/app/controllers/_base/abcs_controller.php",
 		"/W/__cake/app/views/elements/inputs.ctp",
 		"/W/__cake/app/controllers/posts_controller.php",
@@ -480,12 +489,9 @@
 		"/W/diezrichter/app/webroot/css/main.css",
 		"/W/diezrichter/app/views/products/ver.ctp",
 		"/W/diezrichter/app/views/elements/showcase.ctp",
-		"/W/diezrichter/app/models/productimg.php",
-		"/W/diezrichter/app/views/contacto/index.ctp",
 		"/W/diezrichter/app/views/elements/pages.ctp",
 		"/W/diezrichter/app/webroot/css/generic.css",
 		"/W/diezrichter/app/views/services/index.ctp",
-		"/W/diezrichter/app/views/products/index.ctp",
 		"/W/diezrichter/app/webroot/css/mooshowcase.css",
 		"/C/Users/Dan/Documents/Merida_gob/www.merida.gob.mx/municipio/eventos.html",
 		"/C/Users/Dan/Documents/Merida_gob/www.merida.gob.mx/municipio/appsearch.htm",
@@ -497,7 +503,6 @@
 		"/W/kyb/app/controllers/contacto_controller.php",
 		"/C/Users/Dan/AppData/Local/Temp/fz3temp-1/contacto_controller.php",
 		"/C/Users/Dan/AppData/Local/Temp/fz3temp-1/products_controller.php",
-		"/W/diezrichter/app/config/site.php",
 		"/W/diezrichter/app/views/elements/top.ctp",
 		"/W/diezrichter/app/views/elements/menu.ctp",
 		"/W/diezrichter/app/views/layouts/default.ctp",
@@ -515,7 +520,6 @@
 		"/W/diezrichter/app/views/elements/th.ctp",
 		"/W/diezrichter/app/controllers/tags_controller.php",
 		"/W/diezrichter/app/views/products/admin_agregar.ctp",
-		"/W/diezrichter/app/views/products/admin_index.ctp",
 		"/W/diezrichter/app/controllers/_base/section_controller.php",
 		"/W/diezrichter/app/views/elements/sidebar.ctp",
 		"/W/diezrichter/app/models/service.php",
@@ -587,11 +591,7 @@
 		"/W/vianam/app/app_helper.php",
 		"/C/Users/Dan/AppData/Local/Temp/fz3temp-1/app_helper.php",
 		"/W/__cake/app/views/elements/cart.php",
-		"/W/__cake/app/config/site.php",
-		"/W/vianam/app/config/bootstrap.php",
-		"/C/Users/Dan/AppData/Local/Temp/fz3temp-1/bootstrap.php",
-		"/W/__cake/app/controllers/_base/my_controller.php",
-		"/W/__cake/app/models/behaviors/captcha.php"
+		"/W/__cake/app/config/site.php"
 	],
 	"find":
 	{
@@ -819,6 +819,42 @@
 		"selected_items":
 		[
 			[
+				"contac.",
+				"views/elements/email/html/contact.ctp"
+			],
+			[
+				"contacinde",
+				"views/contacto/index.ctp"
+			],
+			[
+				"contac",
+				"controllers/contacto_controller.php"
+			],
+			[
+				"producindex",
+				"views/products/index.ctp"
+			],
+			[
+				"ordenab",
+				"models/behaviors/ordenable.php"
+			],
+			[
+				"produimg",
+				"models/productimg.php"
+			],
+			[
+				"product",
+				"models/product.php"
+			],
+			[
+				"pro",
+				"controllers/products_controller.php"
+			],
+			[
+				"site",
+				"config/site.php"
+			],
+			[
 				"abcs",
 				"controllers/_base/abcs_controller.php"
 			],
@@ -947,10 +983,6 @@
 				"controllers/products_controller.php"
 			],
 			[
-				"site",
-				"config/site.php"
-			],
-			[
 				"mainc",
 				"webroot/css/main.css"
 			],
@@ -961,10 +993,6 @@
 			[
 				"items",
 				"controllers/_base/items_controller.php"
-			],
-			[
-				"producindex",
-				"views/products/index.ctp"
 			],
 			[
 				"index",
@@ -1107,10 +1135,6 @@
 				"views/_base/labels/admin_index.ctp"
 			],
 			[
-				"contac",
-				"models/contact.php"
-			],
-			[
 				"contactindex",
 				"views/contacto/index.ctp"
 			],
@@ -1129,10 +1153,6 @@
 			[
 				"category",
 				"models/category.php"
-			],
-			[
-				"product",
-				"models/product.php"
 			],
 			[
 				"seciot",
@@ -1309,26 +1329,6 @@
 			[
 				"categz_",
 				"controllers/_base/categorizeditems_controller.php"
-			],
-			[
-				"categor_",
-				"controllers/categories_controller.php"
-			],
-			[
-				"curren",
-				"controllers/currencies_controller.php"
-			],
-			[
-				"currency",
-				"models/currency.php"
-			],
-			[
-				"categori",
-				"controllers/_base/categorizeditems_controller.php"
-			],
-			[
-				"abcs_",
-				"controllers/_base/abcs_controller.php"
 			]
 		],
 		"width": 0.0
